@@ -1,0 +1,14 @@
+<div class="modal-content">
+    <button mat-icon-button class="close-button" (click)="closeModal()">
+      close
+    </button>
+    <h2>{{ data.name.official }}</h2>
+    <img [src]="data.flags.png" alt="Flag">
+    <p>{{ data.cca2 }}</p>
+    <p>{{ data.cca2 }}</p>
+    <p>{{ data.name.nativeName | json }}</p>
+    <p>{{ data.altSpellings }}</p>
+    <p>{{ data.idd | json }}</p>
+    <!-- Add other details as needed -->
+  </div>
+  

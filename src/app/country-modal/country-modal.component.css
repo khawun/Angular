@@ -1,0 +1,19 @@
+.modal-content {
+    position: relative;
+    margin: auto;
+    width: 80%;
+    overflow-y: hidden;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
